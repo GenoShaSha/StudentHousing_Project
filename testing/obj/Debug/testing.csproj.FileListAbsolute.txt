@@ -1,0 +1,10 @@
+C:\Users\shanessa\source\repos\testing\testing\obj\Debug\testing.csprojAssemblyReference.cache
+C:\Users\shanessa\source\repos\testing\testing\obj\Debug\testing.Form1.resources
+C:\Users\shanessa\source\repos\testing\testing\obj\Debug\testing.Properties.Resources.resources
+C:\Users\shanessa\source\repos\testing\testing\obj\Debug\testing.csproj.GenerateResource.cache
+C:\Users\shanessa\source\repos\testing\testing\obj\Debug\testing.csproj.CoreCompileInputs.cache
+C:\Users\shanessa\source\repos\testing\testing\bin\Debug\testing.exe.config
+C:\Users\shanessa\source\repos\testing\testing\bin\Debug\testing.exe
+C:\Users\shanessa\source\repos\testing\testing\bin\Debug\testing.pdb
+C:\Users\shanessa\source\repos\testing\testing\obj\Debug\testing.exe
+C:\Users\shanessa\source\repos\testing\testing\obj\Debug\testing.pdb
