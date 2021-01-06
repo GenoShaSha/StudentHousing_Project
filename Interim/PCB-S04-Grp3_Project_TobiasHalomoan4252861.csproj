@@ -53,13 +53,6 @@
       <DependentUpon>Interim.cs</DependentUpon>
     </Compile>
     <Compile Include="Collecter.cs" />
-    <Compile Include="SignIn.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="SignIn.Designer.cs">
-      <DependentUpon>SignIn.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Student Sign In.cs" />
     <Compile Include="StudentPage.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -75,14 +68,9 @@
     <Compile Include="Submission Form.Designer.cs">
       <DependentUpon>Submission Form.cs</DependentUpon>
     </Compile>
-<<<<<<< HEAD:StudentPage/PCB-S04-Grp3_Project_TobiasHalomoan4252861.csproj
-    <EmbeddedResource Include="SignIn.resx">
-      <DependentUpon>SignIn.cs</DependentUpon>
-=======
     <Compile Include="Tenant.cs" />
     <EmbeddedResource Include="..\Interim\Interim.resx">
       <DependentUpon>Interim.cs</DependentUpon>
->>>>>>> 4f9656746fd0f6d815066238e4c21ae1f840d61f:PCB-S04-Grp3_Project_TobiasHalomoan4252861/PCB-S04-Grp3_Project_TobiasHalomoan4252861.csproj
     </EmbeddedResource>
     <EmbeddedResource Include="StudentPage.resx">
       <DependentUpon>StudentPage.cs</DependentUpon>
@@ -95,7 +83,6 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="Submission Form.resx">
       <DependentUpon>Submission Form.cs</DependentUpon>
@@ -112,12 +99,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\tower.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\sign in 2.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

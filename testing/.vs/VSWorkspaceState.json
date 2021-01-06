@@ -1,7 +1,14 @@
 {
   "ExpandedNodes": [
     "",
+<<<<<<< HEAD
     "\\testing"
   ],
+=======
+    "\\obj\\Debug",
+    "\\obj\\Debug\\TempPE"
+  ],
+  "SelectedNode": "\\bin",
+>>>>>>> 4f9656746fd0f6d815066238e4c21ae1f840d61f
   "PreviewInSolutionExplorer": false
 }

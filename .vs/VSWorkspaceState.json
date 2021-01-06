@@ -1,8 +1,14 @@
 {
   "ExpandedNodes": [
     "",
+<<<<<<< HEAD
     "\\PCB-S04-Grp3_Project_TobiasHalomoan4252861"
   ],
   "SelectedNode": "\\PCB-S04-Grp3_Project_TobiasHalomoan4252861\\PCB-S04-Grp3_Project_TobiasHalomoan4252861.sln",
+=======
+    "\\TenantPage"
+  ],
+  "SelectedNode": "\\TenantPage\\TenantPage.sln",
+>>>>>>> 4f9656746fd0f6d815066238e4c21ae1f840d61f
   "PreviewInSolutionExplorer": false
 }

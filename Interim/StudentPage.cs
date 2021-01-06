@@ -53,7 +53,7 @@ namespace PCB_S04_Grp3_Project_TobiasHalomoan4252861
             {
                 foreach (string value in complaintvalues)
                 {
-                    complaintsLB.Items.Add(value);
+                    eventsLB.Items.Add(value);
                 }
             }
             
