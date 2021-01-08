@@ -22,8 +22,18 @@ namespace testing
         {
             string newUsr = tbxUsr.Text;
             string newPass = tbxPass.Text;
+            string lgnType = string.Empty;
 
-            newLogin = new Login(newUsr, newPass);
+            if(rbAdmin.Checked == true)
+            {
+                lgnType = "Admin";
+            }
+            else
+            {
+                lgnType = "Student";
+            }
+
+            newLogin = new Login(newUsr, newPass, lgnType);
 
             if (newLogin.GetIdentity() == true)
             {

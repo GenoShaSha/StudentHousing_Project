@@ -11,13 +11,13 @@ namespace testing
     {
         private string username;
         private string password;
-/*        private string loginType;*/
+        private string loginType;
 
-        public Login(string username, string password/*, string loginType*/)
+        public Login(string username, string password, string loginType)
         {
             this.username = username;
             this.password = password;
-/*            this.loginType = loginType;*/
+            this.loginType = loginType;
         }
 
         public string CallUsername()
@@ -30,26 +30,39 @@ namespace testing
             return this.password;
         }
 
-/*        public string CallLoginType()
+        public string CallLoginType()
         {
             return this.loginType;
-        }*/
+        }
 
         public bool GetIdentity()
         {
-            string path = System.AppDomain.CurrentDomain.BaseDirectory;
-            string[] lines = System.IO.File.ReadAllLines(path + "Database/Users/Students/IdAndPass.txt");
-
-            foreach (string line in lines)
+            if (this.loginType == "Student")
             {
-                string[] steps = line.Split('#');
+                string path = System.AppDomain.CurrentDomain.BaseDirectory;
+                string[] lines = System.IO.File.ReadAllLines(@path + "Database/Users/Students/IdAndPass.txt");
 
-                Console.WriteLine(steps[0]);
-                Console.WriteLine(steps[1]);
-
-                if (this.username == steps[0] && this.password == steps[1])
+                foreach (string line in lines)
                 {
-                    return true;
+                    string[] steps = line.Split('#');
+                    if (this.username == steps[0] && this.password == steps[1])
+                    {
+                        return true;
+                    }
+                }
+            }
+            else if (this.loginType == "Admin")
+            {
+                string paths = System.AppDomain.CurrentDomain.BaseDirectory;
+                string[] ndLines = System.IO.File.ReadAllLines(@paths + "Database/Users/Tenants/IdAndPass(Tenant).txt");
+
+                foreach (string line in ndLines)
+                {
+                    string[] step = line.Split('#');
+                    if (this.username == step[0] && this.password == step[1])
+                    {
+                        return true;
+                    }
                 }
             }
             return false;
