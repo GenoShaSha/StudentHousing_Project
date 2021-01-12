@@ -1,16 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-<<<<<<< HEAD
     "\\bin",
     "\\obj",
     "\\obj\\Debug",
     "\\Properties"
   ],
   "SelectedNode": "\\Form1.cs",
-=======
-    "\\testing"
-  ],
->>>>>>> 1a479308d5974b0a2fe42ad891be412c8062e3d1
   "PreviewInSolutionExplorer": false
 }
