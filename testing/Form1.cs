@@ -16,14 +16,29 @@ namespace testing
         public Form1()
         {
             InitializeComponent();
-            newLogin = new Login("username", "password");
         }
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            if(newLogin.GetIdentity() == true)
+            string newUsr = tbxUsr.Text;
+            string newPass = tbxPass.Text;
+            string lgnType = string.Empty;
+
+            if(rbAdmin.Checked == true)
+            {
+                lgnType = "Admin";
+            }
+            else
+            {
+                lgnType = "Student";
+            }
+
+            newLogin = new Login(newUsr, newPass, lgnType);
+
+            if (newLogin.GetIdentity() == true)
             {
                 MessageBox.Show("Ur in!");
+
             }
             else if(newLogin.GetIdentity() == false)
             {

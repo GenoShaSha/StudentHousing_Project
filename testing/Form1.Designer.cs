@@ -35,6 +35,8 @@
             this.lblUsr = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.rbStudents = new System.Windows.Forms.RadioButton();
+            this.rbAdmin = new System.Windows.Forms.RadioButton();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -99,11 +101,35 @@
             this.pictureBox1.TabIndex = 7;
             this.pictureBox1.TabStop = false;
             // 
+            // rbStudents
+            // 
+            this.rbStudents.AutoSize = true;
+            this.rbStudents.Location = new System.Drawing.Point(312, 319);
+            this.rbStudents.Name = "rbStudents";
+            this.rbStudents.Size = new System.Drawing.Size(78, 21);
+            this.rbStudents.TabIndex = 15;
+            this.rbStudents.TabStop = true;
+            this.rbStudents.Text = "Student";
+            this.rbStudents.UseVisualStyleBackColor = true;
+            // 
+            // rbAdmin
+            // 
+            this.rbAdmin.AutoSize = true;
+            this.rbAdmin.Location = new System.Drawing.Point(312, 292);
+            this.rbAdmin.Name = "rbAdmin";
+            this.rbAdmin.Size = new System.Drawing.Size(68, 21);
+            this.rbAdmin.TabIndex = 16;
+            this.rbAdmin.TabStop = true;
+            this.rbAdmin.Text = "Admin";
+            this.rbAdmin.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.rbAdmin);
+            this.Controls.Add(this.rbStudents);
             this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.tbxPass);
             this.Controls.Add(this.tbxUsr);
@@ -129,6 +155,8 @@
         private System.Windows.Forms.Label lblUsr;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.RadioButton rbStudents;
+        private System.Windows.Forms.RadioButton rbAdmin;
     }
 }
 

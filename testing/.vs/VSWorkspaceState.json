@@ -1,9 +1,11 @@
 {
   "ExpandedNodes": [
     "",
+    "\\bin",
+    "\\obj",
     "\\obj\\Debug",
-    "\\obj\\Debug\\TempPE"
+    "\\Properties"
   ],
-  "SelectedNode": "\\bin",
+  "SelectedNode": "\\Form1.cs",
   "PreviewInSolutionExplorer": false
 }
