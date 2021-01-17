@@ -131,7 +131,7 @@ namespace PCB_S04_Grp3_Project_TobiasHalomoan4252861
             // userBtn
             // 
             this.userBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.userBtn.Location = new System.Drawing.Point(465, 7);
+            this.userBtn.Location = new System.Drawing.Point(706, 10);
             this.userBtn.Name = "userBtn";
             this.userBtn.Size = new System.Drawing.Size(147, 36);
             this.userBtn.TabIndex = 15;
@@ -142,7 +142,7 @@ namespace PCB_S04_Grp3_Project_TobiasHalomoan4252861
             // btnStudentPage
             // 
             this.btnStudentPage.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btnStudentPage.Location = new System.Drawing.Point(631, 7);
+            this.btnStudentPage.Location = new System.Drawing.Point(876, 14);
             this.btnStudentPage.Name = "btnStudentPage";
             this.btnStudentPage.Size = new System.Drawing.Size(94, 29);
             this.btnStudentPage.TabIndex = 14;
@@ -155,7 +155,7 @@ namespace PCB_S04_Grp3_Project_TobiasHalomoan4252861
             this.tbEvents.Location = new System.Drawing.Point(328, 233);
             this.tbEvents.Margin = new System.Windows.Forms.Padding(4);
             this.tbEvents.Name = "tbEvents";
-            this.tbEvents.Size = new System.Drawing.Size(397, 22);
+            this.tbEvents.Size = new System.Drawing.Size(508, 22);
             this.tbEvents.TabIndex = 13;
             // 
             // tbRules
@@ -192,7 +192,7 @@ namespace PCB_S04_Grp3_Project_TobiasHalomoan4252861
             // btnRemoveEvent
             // 
             this.btnRemoveEvent.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btnRemoveEvent.Location = new System.Drawing.Point(327, 263);
+            this.btnRemoveEvent.Location = new System.Drawing.Point(328, 263);
             this.btnRemoveEvent.Margin = new System.Windows.Forms.Padding(4);
             this.btnRemoveEvent.Name = "btnRemoveEvent";
             this.btnRemoveEvent.Size = new System.Drawing.Size(189, 43);
@@ -204,7 +204,7 @@ namespace PCB_S04_Grp3_Project_TobiasHalomoan4252861
             // btwnAddEvent
             // 
             this.btwnAddEvent.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btwnAddEvent.Location = new System.Drawing.Point(540, 263);
+            this.btwnAddEvent.Location = new System.Drawing.Point(651, 263);
             this.btwnAddEvent.Margin = new System.Windows.Forms.Padding(4);
             this.btwnAddEvent.Name = "btwnAddEvent";
             this.btwnAddEvent.Size = new System.Drawing.Size(185, 43);
@@ -220,7 +220,7 @@ namespace PCB_S04_Grp3_Project_TobiasHalomoan4252861
             this.lsbEvents.Location = new System.Drawing.Point(327, 90);
             this.lsbEvents.Margin = new System.Windows.Forms.Padding(4);
             this.lsbEvents.Name = "lsbEvents";
-            this.lsbEvents.Size = new System.Drawing.Size(398, 132);
+            this.lsbEvents.Size = new System.Drawing.Size(509, 132);
             this.lsbEvents.TabIndex = 7;
             // 
             // btnAddRule
@@ -252,7 +252,7 @@ namespace PCB_S04_Grp3_Project_TobiasHalomoan4252861
             this.lsbComplaints.Location = new System.Drawing.Point(328, 342);
             this.lsbComplaints.Margin = new System.Windows.Forms.Padding(4);
             this.lsbComplaints.Name = "lsbComplaints";
-            this.lsbComplaints.Size = new System.Drawing.Size(397, 132);
+            this.lsbComplaints.Size = new System.Drawing.Size(508, 132);
             this.lsbComplaints.TabIndex = 2;
             // 
             // btnRemove
@@ -271,7 +271,7 @@ namespace PCB_S04_Grp3_Project_TobiasHalomoan4252861
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(777, 576);
+            this.ClientSize = new System.Drawing.Size(999, 576);
             this.Controls.Add(this.tabControl1);
             this.Name = "TenantForm";
             this.Text = "TenantForm";

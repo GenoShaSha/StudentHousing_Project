@@ -107,9 +107,10 @@ namespace PCB_S04_Grp3_Project_TobiasHalomoan4252861
         {
             DateTime eventTime = eventPicker.Value;
             string Events = tbEvents.Text;
-            aTenant.AddEvents(Events + "(" + eventTime.ToString("dd/MM/yy") + ")"+ " -Admin");
+            aTenant.AddEvents(Events + "(" + eventTime.ToString("dd/MM/yy") + ")"+ " - Admin");
             UpdateFormTenant();
             eventPicker.Value = DateTime.Now;
+            tbEvents.Text = String.Empty;
         }
 
         private void btnRemoveEvent_Click_1(object sender, EventArgs e)
@@ -131,6 +132,7 @@ namespace PCB_S04_Grp3_Project_TobiasHalomoan4252861
             string Rules = tbRules.Text;
             aTenant.AddRules(Rules);
             UpdateFormTenant();
+            tbRules.Text = String.Empty;
         }
 
     
